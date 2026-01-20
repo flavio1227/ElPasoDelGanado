@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  * {
+    @apply scrollbar-thin scrollbar-thumb-brown-400 scrollbar-track-brown-100;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-thumb-brown-400::-webkit-scrollbar-thumb {
+    background-color: #a1887f;
+    border-radius: 9999px;
+  }
+
+  .scrollbar-track-brown-100::-webkit-scrollbar-track {
+    background-color: #d7ccc8;
+    border-radius: 9999px;
+  }
+}
