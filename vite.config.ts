@@ -4,21 +4,22 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/ElPasoDelGanado/',
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Coffee Companion - Your Personal Brewing Assistant',
-        short_name: 'Coffee Companion',
-        description: 'Personal coffee assistant, consumption tracker, and brewing calculator',
+        name: 'El Paso del Ganado - Coffee Companion',
+        short_name: 'El Paso del Ganado',
+        description: 'Aplicación de café desarrollada por El Paso del Ganado - Tu asistente personal de preparación de café',
         theme_color: '#3E2723',
         background_color: '#EFEBE9',
         display: 'standalone',
         orientation: 'portrait',
-        scope: '/',
-        start_url: '/',
+        scope: '/ElPasoDelGanado/',
+        start_url: '/ElPasoDelGanado/',
         icons: [
           {
             src: 'pwa-192x192.png',

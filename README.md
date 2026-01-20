@@ -48,6 +48,27 @@ npm run preview
 4. Revisa tus estadísticas y tendencias de consumo
 5. Exporta tus datos cuando lo necesites
 
+## 🚀 Despliegue Automático
+
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages cuando se hace push a la rama `main`.
+
+### Configurar GitHub Pages
+
+1. Ve a la configuración del repositorio en GitHub
+2. Navega a **Settings > Pages**
+3. En **Source**, selecciona **GitHub Actions**
+4. El workflow se ejecutará automáticamente en cada push a `main`
+
+La aplicación estará disponible en: `https://flavio1227.github.io/ElPasoDelGanado/`
+
+### Instalación como PWA
+
+Una vez desplegada, la aplicación se puede instalar como PWA:
+
+- **En móviles**: Abre la URL en el navegador y selecciona "Agregar a pantalla de inicio"
+- **En escritorio**: Busca el ícono de instalación en la barra de direcciones del navegador
+- **Offline**: La aplicación funciona completamente offline después de la primera carga
+
 ## 👨‍💻 Desarrollo
 
 Este proyecto fue desarrollado con las mejores prácticas de desarrollo web moderno:
