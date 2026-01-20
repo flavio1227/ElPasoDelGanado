@@ -63,11 +63,52 @@ La aplicación estará disponible en: `https://flavio1227.github.io/ElPasoDelGan
 
 ### Instalación como PWA
 
-Una vez desplegada, la aplicación se puede instalar como PWA:
+Una vez desplegada, la aplicación se puede instalar como PWA. La aplicación estará disponible en:
+**https://flavio1227.github.io/ElPasoDelGanado/**
 
-- **En móviles**: Abre la URL en el navegador y selecciona "Agregar a pantalla de inicio"
-- **En escritorio**: Busca el ícono de instalación en la barra de direcciones del navegador
-- **Offline**: La aplicación funciona completamente offline después de la primera carga
+#### 📱 En dispositivos móviles (Android/iOS):
+
+**Android (Chrome/Edge):**
+1. Abre la URL en tu navegador: `https://flavio1227.github.io/ElPasoDelGanado/`
+2. Toca el menú (tres puntos) en la esquina superior derecha
+3. Selecciona **"Agregar a pantalla de inicio"** o **"Instalar aplicación"**
+4. Confirma la instalación
+5. La app aparecerá como un ícono en tu pantalla de inicio
+
+**iOS (Safari):**
+1. Abre la URL en Safari: `https://flavio1227.github.io/ElPasoDelGanado/`
+2. Toca el botón de compartir (cuadrado con flecha hacia arriba)
+3. Desplázate y selecciona **"Agregar a pantalla de inicio"**
+4. Personaliza el nombre si lo deseas y toca **"Agregar"**
+5. La app aparecerá como un ícono en tu pantalla de inicio
+
+#### 💻 En escritorio (Chrome/Edge/Firefox):
+
+**Chrome/Edge:**
+1. Abre la URL: `https://flavio1227.github.io/ElPasoDelGanado/`
+2. Busca el ícono de instalación (➕) en la barra de direcciones (lado derecho)
+3. Haz clic en el ícono y selecciona **"Instalar"**
+4. Confirma la instalación
+5. La app se abrirá como una ventana independiente
+
+**Firefox:**
+1. Abre la URL: `https://flavio1227.github.io/ElPasoDelGanado/`
+2. Haz clic en el menú (tres líneas) → **"Instalar sitio como aplicación"**
+3. Confirma la instalación
+
+#### ✨ Características de la PWA:
+
+- ✅ **Funciona offline**: Después de la primera carga, la app funciona sin internet
+- ✅ **Actualización automática**: Se actualiza automáticamente cuando hay nuevas versiones
+- ✅ **Experiencia nativa**: Se abre como una app independiente, sin barra del navegador
+- ✅ **Rápida**: Carga instantánea después de la instalación
+- ✅ **Notificaciones**: Soporta notificaciones push (si se implementan)
+
+#### 🔄 Actualizar la aplicación:
+
+La aplicación se actualiza automáticamente cuando hay nuevas versiones. Si quieres forzar una actualización:
+- **Móvil**: Cierra y vuelve a abrir la app
+- **Escritorio**: Cierra la ventana de la app y vuelve a abrirla desde el ícono instalado
 
 ## 👨‍💻 Desarrollo
 
