@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+      injectRegister: 'auto',
       manifest: {
         name: 'El Paso del Ganado - Coffee Companion',
         short_name: 'El Paso del Ganado',
@@ -22,20 +22,14 @@ export default defineConfig({
         start_url: '/ElPasoDelGanado/',
         icons: [
           {
-            src: 'pwa-192x192.png',
+            src: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="%233E2723"/><text x="50" y="70" font-size="60" text-anchor="middle" fill="white">☕</text></svg>',
             sizes: '192x192',
-            type: 'image/png'
+            type: 'image/svg+xml'
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="%233E2723"/><text x="50" y="70" font-size="60" text-anchor="middle" fill="white">☕</text></svg>',
             sizes: '512x512',
-            type: 'image/png'
-          },
-          {
-            src: 'pwa-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any maskable'
+            type: 'image/svg+xml'
           }
         ]
       },
