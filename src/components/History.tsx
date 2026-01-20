@@ -38,7 +38,7 @@ export default function History() {
     return `${displayHour}:${minutes} ${ampm}`;
   };
 
-  const methods: (BrewingMethod | 'all')[] = ['all', 'v60', 'french-press', 'aeropress', 'aeropress-inverted', 'espresso', 'chemex'];
+  const methods: (BrewingMethod | 'all')[] = ['all', 'v60', 'french-press', 'aeropress', 'aeropress-inverted', 'espresso', 'chemex', 'percolator'];
 
   return (
     <div className="max-w-2xl mx-auto p-4 space-y-6 pb-8">

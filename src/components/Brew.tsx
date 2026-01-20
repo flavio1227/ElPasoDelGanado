@@ -80,7 +80,7 @@ export default function Brew() {
     return flavors;
   }, [processing, roast, language]);
 
-  const methods: BrewingMethod[] = ['v60', 'french-press', 'aeropress', 'aeropress-inverted', 'espresso', 'chemex'];
+  const methods: BrewingMethod[] = ['v60', 'french-press', 'aeropress', 'aeropress-inverted', 'espresso', 'chemex', 'percolator'];
 
   return (
     <div className="max-w-2xl mx-auto p-4 space-y-6 pb-8">

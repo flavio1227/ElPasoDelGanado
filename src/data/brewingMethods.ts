@@ -76,6 +76,17 @@ export const brewingMethods: Record<BrewingMethod, BrewingMethodData> = {
       en: 'Pour-over method with thick filters for an exceptionally clean, bright cup. Perfect for highlighting delicate flavors and acidity.',
       es: 'Método de vertido con filtros gruesos para una taza excepcionalmente limpia y brillante. Perfecto para resaltar sabores delicados y acidez.'
     }
+  },
+  'percolator': {
+    name: { en: 'Percolator', es: 'Percoladora' },
+    ratioRange: [10, 12],
+    grindSize: { en: 'Coarse (like sea salt)', es: 'Grueso (como sal marina)' },
+    brewTime: '5:00 - 7:00',
+    waterTemp: '95-100°C (203-212°F)',
+    description: {
+      en: 'Traditional and simple method. Water circulates through coffee grounds producing a strong, robust cup. Perfect for camping and large batches.',
+      es: 'Método tradicional y simple. El agua circula a través del café molido produciendo una taza fuerte y robusta. Perfecto para camping y grandes cantidades.'
+    }
   }
 };
 
