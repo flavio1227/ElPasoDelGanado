@@ -63,6 +63,19 @@ export const brewingMethods: Record<BrewingMethod, BrewingMethodData> = {
       en: 'Concentrated coffee shot. Foundation for many drinks. Requires espresso machine.',
       es: 'Café concentrado. Base de muchas bebidas. Requiere máquina de espresso.'
     }
+  },
+  'chemex': {
+    name: { en: 'Chemex', es: 'Chemex' },
+    ratioRange: [15, 16],
+    grindSize: { en: 'Medium-coarse (like sea salt)', es: 'Medio-grueso (como sal marina)' },
+    brewTime: '4:00 - 5:00',
+    waterTemp: '92-94°C (197-201°F)',
+    bloomTime: '30-45 seconds',
+    bloomRatio: '2x coffee weight',
+    description: {
+      en: 'Pour-over method with thick filters for an exceptionally clean, bright cup. Perfect for highlighting delicate flavors and acidity.',
+      es: 'Método de vertido con filtros gruesos para una taza excepcionalmente limpia y brillante. Perfecto para resaltar sabores delicados y acidez.'
+    }
   }
 };
 

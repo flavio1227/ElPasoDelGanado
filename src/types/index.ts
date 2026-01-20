@@ -1,6 +1,6 @@
 export type Language = 'en' | 'es';
 
-export type BrewingMethod = 'v60' | 'french-press' | 'aeropress' | 'aeropress-inverted' | 'espresso';
+export type BrewingMethod = 'v60' | 'french-press' | 'aeropress' | 'aeropress-inverted' | 'espresso' | 'chemex';
 
 export type ProcessingMethod = 'washed' | 'natural' | 'honey-white' | 'honey-yellow' | 'honey-red' | 'honey-black';
 

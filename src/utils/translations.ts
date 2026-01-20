@@ -72,6 +72,7 @@ export const translations = {
       aeropress: 'AeroPress',
       'aeropress-inverted': 'AeroPress Inverted',
       espresso: 'Espresso',
+      chemex: 'Chemex',
     },
 
     processing: {
@@ -213,6 +214,7 @@ export const translations = {
       aeropress: 'AeroPress',
       'aeropress-inverted': 'AeroPress Invertido',
       espresso: 'Espresso',
+      chemex: 'Chemex',
     },
 
     processing: {
