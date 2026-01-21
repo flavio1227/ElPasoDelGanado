@@ -17,6 +17,11 @@ export interface BrewingMethodData {
   bloomTime?: string;
   bloomRatio?: string;
   description: { en: string; es: string };
+  pours?: {
+    count: number; // Número de vertidas (incluyendo bloom)
+    bloomMl?: number; // ml para bloom (opcional, algunos métodos no usan bloom)
+    poursDescription?: { en: string; es: string }; // Descripción de las vertidas
+  };
 }
 
 export interface FlavorProfile {
